@@ -1,2 +1,2 @@
 # xublit-etc
-Configuration loader module for Xublit
+Electronic text configuration loader module for Xublit

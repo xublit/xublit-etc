@@ -1,0 +1,17 @@
+pickApples:
+    method: PICK
+    endPoint: /apples
+    requires: [Hands]
+    controller: AppleController:pick
+
+plantAppleTree:
+    method: PLANT
+    endPoint: /seeds
+    requires: [AppleSeeds]
+    controller: OrchardController:plantSeeds
+
+throwApples:
+    method: THROW
+    endPoint: /myApples
+    requires: [Apples, Arms]
+    controller: ArmController:launchApples

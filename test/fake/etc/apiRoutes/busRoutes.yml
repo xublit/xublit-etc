@@ -1,0 +1,11 @@
+schoolRoute:
+    method: DRIVE
+    endPoint: /school/:schoolId
+    requires: [UnimagineablePatience]
+    controller: BusController:goForADrive
+
+morningPeakRoute:
+    method: DRIVE
+    endPoint: /city/:addressId
+    requires: [Horn, Guts, Subbornness]
+    controller: BusController:goForADrive

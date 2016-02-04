@@ -1,0 +1,10 @@
+fooVar: Bar val
+barVar: Quux val
+quuxVar:
+    quintVar:
+        - Woof
+        - Meow
+        - Wut
+        - Lol
+    uWotM8: nothing bro
+    sozM8: all g bro
