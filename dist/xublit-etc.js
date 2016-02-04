@@ -1,6 +1,6 @@
 /**
  * Electronic text configuration loader module for Xublit
- * @version v1.0.0-rc.1
+ * @version v1.0.0-rc.2
  * @link https://github.com/xublit/xublit-etc#readme
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
@@ -32,7 +32,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 var YAML_EXTENSION_REGEXP = /\.(yml|yaml)$/;
 
-var name = exports.name = 'xublitEtc';
+var name = exports.name = 'XublitEtc';
 var inject = exports.inject = [];
 function bootstrap() {
 
